@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bk6al66nhymk6"]
+
+[ext_resource type="Texture2D" uid="uid://dd6tuwsyv8886" path="res://assets/ship_purple_stroked.png" id="1_0etio"]
+[ext_resource type="Script" path="res://entities/player/player.gd" id="1_qyvoy"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_qyvoy")
+
+[node name="ship sprite" type="Sprite2D" parent="."]
+position = Vector2(2.00003, -2.99988)
+scale = Vector2(0.74, 0.677778)
+texture = ExtResource("1_0etio")
